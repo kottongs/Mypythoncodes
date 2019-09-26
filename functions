@@ -1,0 +1,7 @@
+def odd_even(x):
+    if x%2==0:
+        print(x, 'this is an even numer!')
+    else:
+        print(x, 'this is an odd number: !')
+number = int(input('enter your number:'))
+odd_even(number)
