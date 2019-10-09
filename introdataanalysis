@@ -1,0 +1,60 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+import os
+
+
+# In[ ]:
+
+
+pwd()
+
+
+# In[ ]:
+
+
+data = pd.read_csv('insurance.csv')
+data.dtypes
+
+
+# In[19]:
+
+
+data.describe()
+
+
+# In[20]:
+
+
+np.mean(data['eq_site_deductible'])
+
+
+# In[21]:
+
+
+np.mean(data['hu_site_deductible'])
+
+
+# In[22]:
+
+
+np.mean(data['fl_site_deductible'])
+
+
+# In[23]:
+
+
+np.mean(data['fr_site_deductible'])
+
+
+# In[ ]:
+
+
+
+
